@@ -91,7 +91,7 @@ pipeline {
           }
           post {
             success {
-              dependencyTrackPublisher artifact: 'target/bom.xml', projectId: '9110e2e4-bc2e-47b7-9967-ade239b0edf5', synchronous: false
+              dependencyTrackPublisher artifact: 'target/bom.xml', projectId: '2944be89-b850-4914-aad2-4e04b6f76a3b', synchronous: false
               archiveArtifacts allowEmptyArchive: true, artifacts: 'target/bom.xml', fingerprint: true, onlyIfSuccessful: true
             }
           }
